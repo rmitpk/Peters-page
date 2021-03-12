@@ -5,7 +5,7 @@
 <style>
 <html lang="en">
 <head>
-<title>Page Title</title>
+<title>Pete's Profile</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
@@ -30,20 +30,35 @@ body {
 </head>
 <body>
 
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+   <a href="#AboutMe">About Me</a>
+    <a href="#Interest in IT">Interest in IT</a>
+	<a href="#Why RMIT">Why RMIT</a>
+	<a href="#Learning Outcome">Learning Outcome</a>
+    <a href="#Ideal Job">Ideal Job</a>
+	<a href="#Project Idea">Project Idea</a>)
+
+  </div>
+</div>
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+<script>
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+
 <div class="header">
-  <h1>Header</h1>
-  <p>My supercool header</p>
+  <h1>Peter's Profile</h1>
+  <p></p>
 </div>
 
-<div class="content">
-  <h1>Content</h1>
-  <p>Some content blablabla, some content blablabla.</p>
-  <p>Some content blablabla, some content blablabla.</p>
-  <p>Some content blablabla, some content blablabla.</p>
-</div>
-
-</body>
-</html>
 
 body {
   font-family: 'Lato', sans-serif;
@@ -102,29 +117,6 @@ body {
 </head>
 <body>
 
-<div id="myNav" class="overlay">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <div class="overlay-content">
-   <a href="#AboutMe">About Me</a>
-    <a href="#Interest in IT">Interest in IT</a>
-	<a href="#Why RMIT">Why RMIT</a>
-	<a href="#Learning Outcome">Learning Outcome</a>
-    <a href="#Ideal Job">Ideal Job</a>
-	<a href="#Project Idea">Project Idea</a>)
-
-  </div>
-</div>
-
-<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
-
-<script>
-function openNav() {
-  document.getElementById("myNav").style.width = "100%";
-}
-
-function closeNav() {
-  document.getElementById("myNav").style.width = "0%";
-}
 </script>
      
 <title>Peter's Profile</title>
