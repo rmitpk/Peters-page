@@ -69,36 +69,33 @@ body {
 <head>
 <style>
 .button {
-  background-color: #4CAF50; /* Green */
+  background-color: #1fb3b8; 
   border: none;
   color: white;
-  padding: 16px 32px;
+  padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
-  transition-duration: 0.4s;
   cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
 }
 
 .button1 {
-  background-color: white; 
-  color: black; 
-  border: 2px solid #008CBA;;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
-.button1:hover {
-  background-color: #008CBA;;
-  color: white;
-  border: 2px solid #00ffff
+.button2:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
-
 </style>
 </head>
 <body>
 
-<button onclick="document.location='Project.html'">Project Page</button>
+
+<button class="button button2" onclick="document.location='Project.html'">Project Page</button>
 
 
 </body>
